@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <title>MIM - Informática - Basica</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500&family=Jost:wght@500;600;700&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body> 
+    <section>
+    <div class="container-xxl bg-white p-0">
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Navbar & Hero Start -->
+        <div class="container-xxl position-relative p-0">
+            <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+                <a href="" class="navbar-brand p-0">
+                    <h1 class="m-0">MIM</h1>
+                    <!-- <img src="img/logo.png" alt="Logo"> -->
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav mx-auto py-0">
+                        <a href="index.html" class="nav-item nav-link active">Home</a>
+                        <a href="http://localhost/ongteste/index.html#sobre" class="nav-item nav-link">sobre</a>
+                        <a href="#projetos" class="nav-item nav-link">Projetos</a>
+                        <a href="#diretoria-execultiva" class="nav-item nav-link"> Diretoria </a>
+                        <a href="#cursos" class="nav-item nav-link">nosso cursos</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Unidades</a>
+                            <div class="dropdown-menu m-0">
+                                <a href="nossasunidades.html" class="dropdown-item">Unidades</a>
+                                <a href="testimonial.html" class="dropdown-item">Recife - PE</a>
+                                <a href="404.html" class="dropdown-item">404 Page</a>
+                            </div>
+                        </div>
+                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    </div>
+                    <a href="" class="btn rounded-pill py-2 px-4 ms-3 d-none d-lg-block" id="servoluntario">quero ser voluntário</a>
+                </div>
+            </nav>
+
+            <div class="container-xxl bg-primary hero-header">
+                <div class="container px-lg-5">
+                    <div class="row g-5 align-items-end">
+                        <div class="col-lg-6 text-center text-lg-start">
+                            <h1 class="text-white mb-4 animated slideInDown" id="tituloprincipal" style="margin-top: -50px ;">Informática Basica</h1>
+                            <p class="text-white pb-3 animated slideInDown" style="margin-top: -20px ;">Nosso propósito e promover a solidariedade com muito amor. Tentando conscientizar e preparar o individuo na vivência social.</p>
+                            <a href="" class="btn btn-secondary py-sm-3 px-sm-5 rounded-pill me-3 animated slideInLeft">SE MATRICULAR</a>
+                            <a href="" class="btn btn-light py-sm-3 px-sm-5 rounded-pill animated slideInRight" id="botao"> Conhecer modulos
+
+                            </a>
+                        </div>
+                        <div class="col-lg-6 text-center text-lg-start">
+                            <img class="img-fluid animated zoomIn" src="img/hero.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+        <!-- Navbar & Hero End -->
+
+
+        
+<!-- Service Start -->
+<section id="projetos">
+
+    <div class="container-xxl py-5">
+        <div class="container py-5 px-lg-5">
+            <div class="wow fadeInUp" data-wow-delay="0.1s">
+                <p class="section-title text-secondary justify-content-center"><span></span>Our Services<span></span></p>
+                <h1 class="text-center mb-5">nossas ações sociais</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item d-flex flex-column text-center rounded">
+                        <div class="service-icon flex-shrink-0">
+                            <i class="fa fa-search fa-2x"></i>
+                        </div>
+                        <h5 class="mb-3">introdução a informatica</h5>
+                        <p class="m-0">Este modulo você ira estudar o tratamento automático e racional da informação. HARDWARE: unidade responsável pelo processamento dos dados, ou seja, o equipamento (parte física). SOFTWARE: responsável pela organização e metodologia no qual os dados serão processados (parte lógica).</p>
+                        <a class="btn btn-square" href=""><i class="fa fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item d-flex flex-column text-center rounded">
+                        <div class="service-icon flex-shrink-0">
+                            <i class="fa fa-laptop-code fa-2x"></i>
+                        </div>
+                        <h5 class="mb-3">Web Design</h5>
+                        <p class="m-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+                        <a class="btn btn-square" href=""><i class="fa fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item d-flex flex-column text-center rounded">
+                        <div class="service-icon flex-shrink-0">
+                            <i class="fab fa-facebook-f fa-2x"></i>
+                        </div>
+                        <h5 class="mb-3">Social Media Marketing</h5>
+                        <p class="m-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+                        <a class="btn btn-square" href=""><i class="fa fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item d-flex flex-column text-center rounded">
+                        <div class="service-icon flex-shrink-0">
+                            <i class="fa fa-mail-bulk fa-2x"></i>
+                        </div>
+                        <h5 class="mb-3">Email Marketing</h5>
+                        <p class="m-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+                        <a class="btn btn-square" href=""><i class="fa fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item d-flex flex-column text-center rounded">
+                        <div class="service-icon flex-shrink-0">
+                            <i class="fa fa-thumbs-up fa-2x"></i>
+                        </div>
+                        <h5 class="mb-3">PPC Advertising</h5>
+                        <p class="m-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+                        <a class="btn btn-square" href=""><i class="fa fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item d-flex flex-column text-center rounded">
+                        <div class="service-icon flex-shrink-0">
+                            <i class="fab fa-android fa-2x"></i>
+                        </div>
+                        <h5 class="mb-3">App Development</h5>
+                        <p class="m-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+                        <a class="btn btn-square" href=""><i class="fa fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- Service End -->
+
+        
+
+
+        <!-- Facts Start -->
+    <section style="margin:20%;">
+        <div class="container-xxl bg-primary fact py-5 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="container py-5 px-lg-5">
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.1s">
+                        <i class="fa fa-certificate fa-3x text-secondary mb-3"></i>
+                        <h1 class="text-white mb-2" data-toggle="counter-up">4</h1>
+                        <p class="text-white mb-0">unidades</p>
+                    </div>
+                    <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.3s">
+                        <i class="fa fa-users-cog fa-3x text-secondary mb-3"></i>
+                        <h1 class="text-white mb-2" data-toggle="counter-up">15</h1>
+                        <p class="text-white mb-0">voluntário</p>
+                    </div>
+                    <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.5s">
+                        <i class="fa fa-users fa-3x text-secondary mb-3"></i>
+                        <h1 class="text-white mb-2" data-toggle="counter-up">50</h1>
+                        <p class="text-white mb-0">alunos</p>
+                    </div>
+                    <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.7s">
+                        <i class="fa fa-check fa-3x text-secondary mb-3"></i>
+                        <h1 class="text-white mb-2" data-toggle="counter-up">1234</h1>
+                        <p class="text-white mb-0">Compleate Projects</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+        <!-- Facts End -->
+
+
+        
+
+
+        <!-- Newsletter Start -->
+    <section style="align-items: center;">
+        <div class="container-xxl bg-primary newsletter py-5 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="container py-5 px-lg-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-7 text-center">
+                        <p class="section-title text-white justify-content-center"><span></span>Newsletter<span></span></p>
+                        <h1 class="text-center text-white mb-4">mande seu E-mail </h1>
+                        <p class="text-white mb-4">receba notificações de nossos projetos; seja o primeiro a receber as nossas novidades.</p>
+                        <div class="position-relative w-100 mt-3">
+                            <input class="form-control border-0 rounded-pill w-100 ps-4 pe-5" type="text" placeholder="coloque seu E-mail" style="height: 48px;">
+                            <button type="button" class="btn shadow-none position-absolute top-0 end-0 mt-1 me-2"><i class="fa fa-paper-plane text-primary fs-4"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+        <!-- Newsletter End -->
+
+
+        <!-- Projects Start -->
+      <section id="cursos" ></section>
+        <div class="container-xxl py-5">
+            <div class="container py-5 px-lg-5">
+                <div class="wow fadeInUp" data-wow-delay="0.1s">
+                    <p class="section-title text-secondary justify-content-center"><span></span>Our Projects<span></span></p>
+                    <h1 class="text-center mb-5">nossos cursos</h1>
+                </div>
+                <div class="row mt-n2 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="col-12 text-center">
+                        <ul class="list-inline mb-5" id="portfolio-flters">
+                            <li class="mx-2 active" data-filter="*">Todos</li>
+                            <li class="mx-2" data-filter=".first">tecnologia</li>
+                            <li class="mx-2" data-filter=".second">escolar</li>
+                            <li class="mx-2" data-filter=".marcial">Arte Marcial</li>
+                            <li class="mx-2" data-filter=".dance">Dança</li>
+                            <li class="mx-2" data-filter=".Music">Musica</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row g-4 portfolio-container">
+                    <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="rounded overflow-hidden">
+                            <div class="position-relative overflow-hidden">
+                                <img class="img-fluid w-100" src="img/portfolio-1.jpg" alt="">
+                                <div class="portfolio-overlay">
+                                    <a class="btn btn-square btn-outline-light mx-1" href="img/portfolio-1.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                    <a class="btn btn-square btn-outline-light mx-1" href=""><i class="fa fa-link"></i></a>
+                                </div>
+                            </div>
+                            <div class="bg-light p-4">
+                                <p class="text-primary fw-medium mb-2">Informática</p>
+                                <h5 class="lh-base mb-0"> Informática Básica </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="rounded overflow-hidden">
+                            <div class="position-relative overflow-hidden">
+                                <img class="img-fluid w-100" src="img/reforço_1.jpg" alt="">
+                                <div class="portfolio-overlay">
+                                    <a class="btn btn-square btn-outline-light mx-1" href="img/reforço_1.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                    <a class="btn btn-square btn-outline-light mx-1" href=""><i class="fa fa-link"></i></a>
+                                </div>
+                            </div>
+                            <div class="bg-light p-4">
+                                <p class="text-primary fw-medium mb-2">Escolar</p>
+                                <h5 class="lh-base mb-0">Reforço Escolar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item dance wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="rounded overflow-hidden">
+                            <div class="position-relative overflow-hidden">
+                                <img class="img-fluid w-100" src="img/ballet_curso.jpg" alt="">
+                                <div class="portfolio-overlay">
+                                    <a class="btn btn-square btn-outline-light mx-1" href="img/ballet_curso.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                    <a class="btn btn-square btn-outline-light mx-1" href=""><i class="fa fa-link"></i></a>
+                                </div>
+                            </div>
+                            <div class="bg-light p-4">
+                                <p class="text-primary fw-medium mb-2">Dança</p>
+                                <h5 class="lh-base mb-0">Ballet</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="rounded overflow-hidden">
+                            <div class="position-relative overflow-hidden">
+                                <img class="img-fluid w-100" src="img/abc.jfif" alt="">
+                                <div class="portfolio-overlay">
+                                    <a class="btn btn-square btn-outline-light mx-1" href="img/abc.jfif" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                    <a class="btn btn-square btn-outline-light mx-1" href=""><i class="fa fa-link"></i></a>
+                                </div>
+                            </div>
+                            <div class="bg-light p-4">
+                                <p class="text-primary fw-medium mb-2">Escolar</p>
+                                <h5 class="lh-base mb-0">Alfabetização</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item Music wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="rounded overflow-hidden">
+                            <div class="position-relative overflow-hidden">
+                                <img class="img-fluid w-100" src="img/violao.jpg" alt="">
+                                <div class="portfolio-overlay">
+                                    <a class="btn btn-square btn-outline-light mx-1" href="img/violao.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                    <a class="btn btn-square btn-outline-light mx-1" href=""><i class="fa fa-link"></i></a>
+                                </div>
+                            </div>
+                            <div class="bg-light p-4">
+                                <p class="text-primary fw-medium mb-2">Musica</p>
+                                <h5 class="lh-base mb-0">Aula de Violão</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item marcial wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="rounded overflow-hidden">
+                            <div class="position-relative overflow-hidden">
+                                <img class="img-fluid w-100" src="img/jiu-jitsu.jpg" alt="" style="width:100%; height:100%;">
+                                <div class="portfolio-overlay">
+                                    <a class="btn btn-square btn-outline-light mx-1" href="img/jiu-jitsu.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                    <a class="btn btn-square btn-outline-light mx-1" href=""><i class="fa fa-link"></i></a>
+                                </div>
+                            </div>
+                            <div class="bg-light p-4">
+                                <p class="text-primary fw-medium mb-2">Arte Marcial</p>
+                                <h5 class="lh-base mb-0">jiu-jitsu</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+        <!-- Projects End -->
+
+
+        <!-- Testimonial Start -->
+        <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="container py-5 px-lg-5">
+                <p class="section-title text-secondary justify-content-center"><span></span>Voluntários do MIM<span></span></p>
+                <h1 class="text-center mb-5">Frases dos membros da MIM</h1>
+                <div class="owl-carousel testimonial-carousel">
+                    <div class="testimonial-item bg-light rounded my-4">
+                        <p class="fs-5"><i class="fa fa-quote-left fa-4x text-primary mt-n4 me-3"></i>ideais devem ser ditos apenas por aqueles fortes o bastante para cumpri-los</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/gerson-junior.jfif" style="width: 65px; height: 65px;">
+                            <div class="ps-4">
+                                <h5 class="mb-1">Gerson Barbosa</h5>
+                                <span>Programador</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item bg-light rounded my-4">
+                        <p class="fs-5"><i class="fa fa-quote-left fa-4x text-primary mt-n4 me-3"></i>O estudo faz você, alcançar muitos objetivos na vida profissional.</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/filipe-pereira.jpg" style="width: 65px; height: 65px;">
+                            <div class="ps-4">
+                                <h5 class="mb-1">Filipe Perira</h5>
+                                <span>Programador</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item bg-light rounded my-4">
+                        <p class="fs-5"><i class="fa fa-quote-left fa-4x text-primary mt-n4 me-3"></i>Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit sed stet lorem sit clita duo justo.</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-3.jpg" style="width: 65px; height: 65px;">
+                            <div class="ps-4">
+                                <h5 class="mb-1">Client Name</h5>
+                                <span>Profession</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Testimonial End -->
+
+
+        <!-- diretoria -->
+      <section id="diretoria-execultiva">
+        <div class="container-xxl py-5">
+            <div class="container py-5 px-lg-5">
+                <div class="wow fadeInUp" data-wow-delay="0.1s">
+                    <p class="section-title text-secondary justify-content-center"><span></span>Our Team<span></span></p>
+                    <h1 class="text-center mb-5">Diretoria Execultiva</h1>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="team-item bg-light rounded">
+                            <div class="text-center border-bottom p-4">
+                                <img class="img-fluid rounded-circle mb-4" src="img/rebeca-mim.jpg" alt="" style="height:320px; width: 3200px;" >
+                                <h5>Rebeca da Penha</h5>
+                                <span>Presidente do MIM</span>
+                            </div>
+                            <div class="d-flex justify-content-center p-4">
+                                <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-square mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="team-item bg-light rounded">
+                            <div class="text-center border-bottom p-4">
+                                <img class="img-fluid rounded-circle mb-4" src="img/team-2.jpg" alt="">
+                                <h5>Jessica Brown</h5>
+                                <span>Web Designer</span>
+                            </div>
+                            <div class="d-flex justify-content-center p-4">
+                                <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-square mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="team-item bg-light rounded">
+                            <div class="text-center border-bottom p-4">
+                                <img class="img-fluid rounded-circle mb-4" src="img/team-3.jpg" alt="">
+                                <h5>Tony Johnson</h5>
+                                <span>SEO Expert</span>
+                            </div>
+                            <div class="d-flex justify-content-center p-4">
+                                <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-square mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section> > 
+
+        <!-- Team End -->
+        
+
+        <!-- Footer Start -->
+        <div class="container-fluid bg-primary text-light footer wow fadeIn" data-wow-delay="0.1s">
+            <div class="container py-5 px-lg-5">
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-3">
+                        <p class="section-title text-white h5 mb-4">endereço e contato<span></span></p>
+                        <p><i class="fa fa-map-marker-alt me-3"></i>Tv. da Paz, 67 - Jardim Jordão, Jaboatão dos Guararapes - PE, 54000-000</p>
+                        <p><i class="fa fa-phone-alt me-3"></i>(81) 99705-4042</p>
+                        <p><i class="fa fa-envelope me-3"></i>info@example.com</p>
+                        <div class="d-flex pt-2">
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/misericordiaonline/"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="https://www.instagram.com/mim.social"><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <p class="section-title text-white h5 mb-4">Quick Link<span></span></p>
+                        <a class="btn btn-link" href="#sobre">sobre</a>
+                        <a class="btn btn-link" href="">Contact Us</a>
+                        <a class="btn btn-link" href="">Privacy Policy</a>
+                        <a class="btn btn-link" href="">Terms & Condition</a>
+                        <a class="btn btn-link" href="">Career</a>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <p class="section-title text-white h5 mb-4">Galeria<span></span></p>
+                        <div class="row g-2">
+                            <div class="col-4">
+                                <img class="img-fluid" src="img/portfolio-1.jpg" alt="Image">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid" src="img/portfolio-2.jpg" alt="Image">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid" src="img/portfolio-3.jpg" alt="Image">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid" src="img/portfolio-4.jpg" alt="Image">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid" src="img/portfolio-5.jpg" alt="Image">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid" src="img/portfolio-6.jpg" alt="Image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <p class="section-title text-white h5 mb-4">Newsletter<span></span></p>
+                        <p>cadastre-se com seu E-mail e receba todas as novidades do Ministério Internacional de Misericordia</p>
+                        <div class="position-relative w-100 mt-3">
+                            <input class="form-control border-0 rounded-pill w-100 ps-4 pe-5" type="text" placeholder="Your Email" style="height: 48px;">
+                            <button type="button" class="btn shadow-none position-absolute top-0 end-0 mt-1 me-2"><i class="fa fa-paper-plane text-primary fs-4"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container px-lg-5">
+                <div class="copyright">
+                    <div class="row">
+                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                            &copy; <a class="border-bottom" href="#">Your Site Name</a>, All Right Reserved. 
+							
+							<!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+							Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a><br><br>
+                            Distributed By a <a class="border-bottom" href="https://themewagon.com" target="_blank">ThemeWagon</a>
+                        </div>
+                        <div class="col-md-6 text-center text-md-end">
+                            <div class="footer-menu">
+                                <a href="">Home</a>
+                                <a href="">Cookies</a>
+                                <a href="">Help</a>
+                                <a href="">FQAs</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-secondary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
